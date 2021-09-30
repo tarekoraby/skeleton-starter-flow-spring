@@ -1,6 +1,6 @@
 tasks:
   - init: |
-      mvn install
+      mvn package
       npm install
 
     command: mvn
