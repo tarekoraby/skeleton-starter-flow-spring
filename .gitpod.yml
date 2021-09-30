@@ -1,5 +1,7 @@
 tasks:
-  - init: mvn package -Pproduction
+  - init: |
+      npm install
+      mvn install
 
     command: mvn
 ports:
