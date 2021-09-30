@@ -1,7 +1,7 @@
 tasks:
   - init: |
-      npm install
       mvn install
+      npm install
 
     command: mvn
 ports:
